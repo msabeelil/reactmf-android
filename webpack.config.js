@@ -6,7 +6,7 @@ const deps = require("./package.json").dependencies;
 module.exports = (_, argv) => ({
   //entry: './src/App.jsx', // Adjust the path to your main entry file
   output: {
-    publicPath: "http://localhost:8080/",
+    publicPath: "auto",
   },
 
   resolve: {
